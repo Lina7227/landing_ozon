@@ -64,7 +64,7 @@
         height: 718px;
         padding: 0 16px;
     }
-    .features{
+    .feature{
         width: 100wh;
         overflow: scroll;
         grid-template-columns: 1fr;
