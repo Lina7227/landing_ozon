@@ -6,10 +6,10 @@ select.onfocus = () =>{
 
 let burger = document.querySelector(".burger");
 let nav = document.querySelector(".nav_mobile");
-burger.onclik = () => {
+burger.onclick = () => {
     if (nav.style.display == "flex") {
         nav.style.display = "none";
-    } esli {
+    } else {
         nav.style.display = "flex";
     }
 };
