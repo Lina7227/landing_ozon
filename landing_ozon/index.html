@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozon New Skills</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css"> 
+    <script src="./js/code.js" defer></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo"></div>
+            <nav class="nav">
+                <a href="#" class="nav__Link">Бизнес-аналитика</a>
+                <a href="#" class="nav__Link">Python 18+</a>
+                <a href="#" class="nav__Link">Frontend разработчик</a>
+            </nav>
+            <h5 class="logo_second"> Это вам не Школа! </h5>
+
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </header>
+
+        <div class="nav_mobile">
+                <a href="#" class="nav__Link">Бизнес-аналитика</a>
+                <a href="#" class="nav__Link">Python 18+</a>
+                <a href="#" class="nav__Link">Frontend разработчик</a>
+        </div>
+
+        <div class="promo">
+            <div class="promo_wrapper">
+                <h1 class="promo_wrapper__tittle">Ozon New Skills</h1>
+                <p class="promo_wrapper__text"> Поможем получить и прокачать навыки,
+                    которые будут полезны в текущей карьере
+                    или дадут старт новой!
+                </p>
+                <button class="promo_wrapper__btn">Выбрать курс</button>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="main_heading">Наши курсы</h3>
+    <div class="courses">
+
+        <div class="cards_wrap">
+            <div class="cards_img cards_img__notebook"></div>
+            <h5 class="cards_wrap__h5">Бизнес-аналитика</h5>
+            <p class="cards_wrap__p">Изучение основных инструментов и механизмов бизнес-аналитики</p>
+            <a href="" class="cards_wrap__link">Узнать больше</a>
+        </div>
+
+        <div class="cards_wrap">
+            <div class="cards_img cards_img__keyboards"></div>
+            <h5 class="cards_wrap__h5">Python 18+</h5>
+            <p class="cards_wrap__p">Основы программирования и знакомство с возможностями языка Python</p>
+            <a href="" class="cards_wrap__link">Узнать больше</a>
+        </div>
+
+        <div class="cards_wrap">
+            <div class="cards_img cards_img__keys"></div>
+            <h5 class="cards_wrap__h5">Frontend-разработчик</h5>
+            <p class="cards_wrap__p">Курс для новичков, которые хотят начать свой путь в Frontend-разработке</p>
+            <a href="" class="cards_wrap__link">Узнать больше</a>
+        </div>
+
+    </div>
+
+    <div class="promo_second">
+        <div class="promo_wrapper promo_wrapper_second">
+            <h1 class="promo_wrapper__tittle">Сложно
+                определиться?</h1>
+            <div class="promo_wrapper__text">Оставьте контактные данные
+                и наши специалисты помогут понять,
+                что вам ближе.</div>
+            <button class="promo_wrapper__btn">Оставить заявку</button>
+        </div>
+    </div>
+
+    <h3 class="main_heading">Преимущества</h3>
+
+    <div class="feature">
+        <div class="feature_card">
+            <div class="feature_card__img feature_card__img_cup"></div>
+            <h5 class="feature_card__h5">Лидерство</h5>
+            <p class="feature_card__p">Образовательный проектот лидера российского e-com</p>
+        </div>
+
+        <div class="feature_card">
+            <div class="feature_card__img feature_card__img_hat"></div>
+            <h5 class="feature_card__h5">Экспертиза</h5>
+            <p class="feature_card__p">Преподаватели
+                с уникальным опытом</p>
+        </div>
+
+        <div class="feature_card">
+            <div class="feature_card__img feature_card__img_clok"></div>
+            <h5 class="feature_card__h5">Актуальность</h5>
+            <p class="feature_card__p">Погружение в мир современных профессий</p>
+        </div>
+
+        <div class="feature_card">
+            <div class="feature_card__img feature_card__img_man"></div>
+            <h5 class="feature_card__h5">Кураторы</h5>
+            <p class="feature_card__p">Поддержка преподавателя и куратора на всех этапах обучения</p>
+        </div>
+    </div>
+
+    <div class="wrapper_grey">
+        <h3 class="main_heading"> Оставить заявку</h3>
+        <form action="index.php" class="feedback_form">
+            <input type="text" class="feedback_form__input" placeholder="Город">
+            <input type="tel" class="feedback_form__input"  placeholder="+7">
+            <input type="email" class="feedback_form__input"  placeholder="e-mail">
+            <input type="text" class="feedback_form__input" placeholder="Имя и фамилия">
+            <select name="" id="select" class="feedback_form__select">
+                <option value="" disabled selected id="option_dis">Выберите курс</option>
+                <option value="Pyton 18+">Pyton 18+</option>
+                <option value="Frontend">Frontend</option>
+                <textarea name="" id="" cols="30" rows="10" 
+                class="feedback_form__textarea" placeholder="Комментарий"></textarea>
+            </select>
+            <button class="promo_wrapper__btn" type="submit">Отправить заявку</button>
+
+        </form>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer__logo"></div>
+        <p class="footer__p">© 2019 ООО «Интернет Решения». Все права защищены.
+            Москва, Пресненская наб., 10, блок С
+            <br/>ons@ozon.ru</p>
+        <div class="footer_social">
+            <a href="#"><div class="footer__social_link insta"></div></a>
+            <a href="#"><div class="footer__social_link face"></div></a>
+            <a href="#"><div class="footer__social_link vk"></div></a>
+            <a href="#"><div class="footer__social_link yt"></div></a>
+        </div>
+        <div class="footer__second_logo"></div>
+    </footer>
+
+
+</body>
+</html>
