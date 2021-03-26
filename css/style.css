@@ -1,4 +1,11 @@
 @import url('min_reset.css');
 @import url('variable.css');
 @import url('header.css');
-@import url('promo.css')
+@import url('promo.css');
+@import url('heading.css');
+@import url('courses.css');
+@import url('promo_second.css');
+@import url('feature.css');
+@import url('form.css');
+@import url('footer.css');
+@import url('adaptive.css');

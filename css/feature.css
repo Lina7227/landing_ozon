@@ -1,0 +1,55 @@
+.feature{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(4, 240px);
+    justify-content: center;
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: var(--default__font);
+
+}
+
+.feature_card{
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+}
+
+
+.feature_card__img{
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    justify-content: center;
+    background-position: top center;
+}
+
+.feature_card__img_cup{
+    background-image: url('../icons/cup.svg');
+}
+
+.feature_card__img_hat{
+    background-image: url('../icons/Expert.svg');
+}
+
+.feature_card__img_clok{
+    background-image: url('../icons/clock_2.svg');
+}
+
+.feature_card__img_man{
+    background-image: url('../icons/human.svg');
+}
+
+.feature_card__h5{
+    margin: 35px 0 16px 0;
+    color: var(--dark__blue);
+    font-size: 24px;
+}
+
+.feature_card__p{
+    color: #33475C;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.3;
+}

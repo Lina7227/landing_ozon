@@ -5,7 +5,7 @@
     height: 58px;
     margin-top: 33px;
     margin-bottom: 33px;
-    font-family: var('--default__font');
+    font-family: var(--default__font);
 }
 
 .logo{
@@ -22,6 +22,10 @@
     justify-content: space-around;
 }
 
+.nav_mobile{
+    display: none;
+}
+
 .nav__Link{
     font-size: 16px;
     color:black;
@@ -31,8 +35,16 @@
 }
 
 .nav__Link.hover{
-    color: var('--danger__color');
+    color: var(--danger__color);
 }
 .logo_second{
     font-size: 22px;
+}
+
+.nav_mobile{
+    display: none;
+}
+
+.burger div{
+   display: none;
 }
